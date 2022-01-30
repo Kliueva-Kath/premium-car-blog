@@ -135,7 +135,7 @@
                     <ul class="popular__column">
                         <li class="popular__block popular-posts__block_no_1">
                             <a class="article_content_category popular__category" href="#">Vehicle</a>
-                            <img class="popular-image" src="images/popular-posts_1.png">
+                            <img class="popular__image" src="images/popular-posts_1.png">
                             <h2 class="article_content_header popular__header">
                                 <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                             </h2>
@@ -143,7 +143,7 @@
                         </li>
                         <li class="popular__block popular-posts__block_no_2">
                             <a class="article_content_category popular__category" href="#">Vehicle</a>
-                            <img class="popular-image" src="images/popular-posts_2.png">
+                            <img class="popular__image" src="images/popular-posts_2.png">
                             <h2 class="article_content_header popular__header">
                                 <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                             </h2>
@@ -151,7 +151,7 @@
                         </li>
                         <li class="popular__block popular-posts__block_no_3">
                             <a class="article_content_category popular__category" href="#">Vehicle</a>
-                            <img class="popular-image" src="images/popular-posts_3.png">
+                            <img class="popular__image" src="images/popular-posts_3.png">
                             <h2 class="article_content_header popular__header">
                                 <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                             </h2>
@@ -209,9 +209,11 @@
                     </ul>
                 </div>
                 <div class="sidebar-widget__newsletter">
+                    <h2 class="newsletter__header">Email newsletter</h2>
+                    <p class="newsletter__description">Sign up to receive email updates and to hear what's going on.</p>
                     <form action="#" class="newsletter_form newsletter_form_theme_light">
-                        <input type="text" placeholder="Your name" class="input-text input-text_theme_light">
-                        <input type="email" placeholder="Your email adress" class="newsletter-form newsletter-form_theme_light">
+                        <input type="text" placeholder="Your name" class="input input__text input_theme_light">
+                        <input type="email" placeholder="Your email adress" class="input input__email input_theme_light">
                         <input type="submit" name="submit" value="Subscribe to newsletter" class="newsletter-button newsletter-button_theme_light">
                     </form>
                 </div>
@@ -219,14 +221,15 @@
         </section>
 
         <section class="pagination">
-            <div class="pagination__row">
-                <a class="pagination__page" href="#">&lt;</a>
-                <a class="pagination__page" href="#">>1</a>
-                <a class="pagination__page" href="#">2</a>
-                <a class="pagination__page" href="#">3</a>
-                <a class="pagination__page" href="#">...</a>
-                <a class="pagination__page" href="#">&gt;</a>
-            </div>
+            <ul class="pagination__row">
+                <li class="pagination__page"><a class="page__link" href="#">&lt;</a></li>
+                <li class="pagination__page page__active"><a class="page__link link__active" href="#">1</a></li>
+                <li class="pagination__page"><a class="page__link" href="#">2</a></li>
+                <li class="pagination__page"><a class="page__link" href="#">3</a></li>
+                <li class="pagination__page"><a class="page__link" href="#">...</a></li>
+                <li class="pagination__page"><a class="page__link" href="#">8</a></li>
+                <li class="pagination__page"><a class="page__link" href="#">&gt;</a></li>
+            </ul>
         </section>
 
         <section class="most-popular">
@@ -234,7 +237,7 @@
             <ul class="popular__row">
                 <li class="popular__block most-popular__block_no_1">
                     <a class="article_content_category popular__category" href="#">BMW</a>
-                    <img class="popular-image" src="images/most-popular_1.png">
+                    <img class="popular__image" src="images/most-popular_1.png">
                     <h2 class="article_content_header popular__header">
                         <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                     </h2>
@@ -242,7 +245,7 @@
                 </li>
                 <li class="popular__block most-popular__block_no_2">
                     <a class="article_content_category popular__category" href="#">BMW</a>
-                    <img class="popular-image" src="images/most-popular_2.png">
+                    <img class="popular__image" src="images/most-popular_2.png">
                     <h2 class="article_content_header popular__header">
                         <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                     </h2>
@@ -250,7 +253,7 @@
                 </li>
                 <li class="popular__block most-popular__block_no_3">
                     <a class="article_content_category popular__category" href="#">BMW</a>
-                    <img class="popular-image" src="images/most-popular_3.png">
+                    <img class="popular__image" src="images/most-popular_3.png">
                     <h2 class="article_content_header popular__header">
                         <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                     </h2>
@@ -258,7 +261,7 @@
                 </li>
                 <li class="popular__block most-popular__block_no_4">
                     <a class="article_content_category popular__category" href="#">BMW</a>
-                    <img class="popular-image" src="images/most-popular_4.png">
+                    <img class="popular__image" src="images/most-popular_4.png">
                     <h2 class="article_content_header popular__header">
                         <a class="article-link" href="#">One of Saturn's largest rings may be newer than anyone</a>
                     </h2>
@@ -269,75 +272,75 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__columns">
-            <div class="column_content_main-info">
-                <img class="logo_place_footer" src="images/Logo.png">
-                <p class="footer_column_company-description">Short description about the company Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <div class="footer_column_socials">
-                    <h2 class="socials__header">Keep in touch</h2>
-                    <div class="footer_column_heading">
-                        <a class="socials__link" href="#">
-                            <img class="socials__icon" alt="Facebook" src="images/facebook.png">
-                        </a>
-                        <a class="socials__link" href="#">
-                            <img class="socials__icon" alt="Twitter" src="images/twitter.png">
-                        </a>
-                        <a class="socials__link" href="#">
-                            <img class="socials__icon" alt="Pinterest" src="images/pinterest.png">
-                        </a>
-                        <a class="socials__link" href="#">
-                            <img class="socials__icon" alt="Google+" src="images/google plus.png">
-                        </a>
-                        <a class="socials__link" href="#">
-                            <img class="socials__icon" alt="Instagram" src="images/instagram.png">
-                        </a>
+        <div class="footer__main-content">
+            <div class="footer__columns">
+                <div class="column_content_main-info">
+                    <img class="logo_place_footer" src="images/Logo.png">
+                    <p class="footer_column_company-description">Short description about the company Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="footer_column_socials">
+                        <h2 class="footer_column_heading">Keep in touch</h2>
+                        <div class="socials__links">
+                            <a class="socials__link" href="#">
+                                <img class="socials__icon" alt="Facebook" src="images/facebook.png">
+                            </a>
+                            <a class="socials__link" href="#">
+                                <img class="socials__icon" alt="Twitter" src="images/twitter.png">
+                            </a>
+                            <a class="socials__link" href="#">
+                                <img class="socials__icon" alt="Pinterest" src="images/pinterest.png">
+                            </a>
+                            <a class="socials__link" href="#">
+                                <img class="socials__icon" alt="Google+" src="images/google plus.png">
+                            </a>
+                            <a class="socials__link" href="#">
+                                <img class="socials__icon" alt="Instagram" src="images/instagram.png">
+                            </a>
+                        </div>
                     </div>
+                </div>
+                <div class="column_content_recent-posts">
+                    <h2 class="footer_column_heading">Recent posts</h2>
+                    <ul class="recent-posts__column">
+                        <li class="recent-posts__block">
+                            <img class="recent-posts-image" src="images/recent-posts_1.png" alt="yellow car">
+                            <div class="recent-posts__text">
+                                <h3 class="article_content_header recent-posts__header">
+                                    <a class="header__link" href="#">One of Saturn's largest rings may be newer than…</a>
+                                </h3>
+                                <p class="article_content_author recent-posts__author">Rickie Baroch - June 6, 2019</p>
+                            </div>
+                        </li>
+                        <li class="recent-posts__block">
+                            <img class="recent-posts-image" src="images/recent-posts_2.png" alt="white car">
+                            <div class="recent-posts__text">
+                                <h3 class="article_content_header recent-posts__header">
+                                    <a class="header__link" href="#">One of Saturn's largest rings may be newer than…</a>
+                                </h3>
+                                <p class="article_content_author recent-posts__author">Rickie Baroch - June 6, 2019</p>
+                            </div>
+                        </li>
+                        <li class="recent-posts__block">
+                            <img class="recent-posts-image" src="images/recent-posts_3.png" alt="white car">
+                            <div class="recent-posts__text">
+                                <h3 class="article_content_header recent-posts__header">
+                                    <a class="header__link" href="#">One of Saturn's largest rings may be newer than…</a>
+                                </h3>
+                                <p class="article_content_author recent-posts__author">Rickie Baroch - June 6, 2019</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column_content_newsletter">
+                    <h2 class="footer_column_heading newsletter__heading">Newsletter</h2>
+                    <form action="#" class="newsletter_form newsletter_form_theme_dark">
+                        <input type="text" placeholder="Your name" class="input input__text input_theme_dark">
+                        <input type="email" placeholder="Your email adress" class="input input__email input_theme_dark">
+                        <input type="submit" name="submit" value="Subscribe to newsletter" class="newsletter-button newsletter-button_theme_dark">
+                    </form>
                 </div>
             </div>
         </div>
-
-        <div class="column_content_recent-posts">
-            <h2 class="footer_column_heading">Recent posts</h2>
-            <ul class="recent-posts__column">
-                <li class="recent-posts__block_no_1">
-                    <img class="recent-posts-image" src="images/recent-posts_1.png" alt="yellow car">
-                    <div class="recent-posts__text">
-                        <h3 class="article_content_header recent-posts__header">
-                            <a class="header-link" href="#">One of Saturn's largest rings may be newer than…</a>
-                        </h3>
-                        <p class="article_content_author recent-posts_author">Rickie Baroch - June 6, 2019</p>
-                    </div>
-                </li>
-                <li class="recent-posts__block_no_2">
-                    <img class="recent-posts-image" src="images/recent-posts_2.png" alt="white car">
-                    <div class="recent-posts__text">
-                        <h3 class="article_content_header recent-posts__header">
-                            <a class="header-link" href="#">One of Saturn's largest rings may be newer than…</a>
-                        </h3>
-                        <p class="article_content_author recent-posts_author">Rickie Baroch - June 6, 2019</p>
-                    </div>
-                </li>
-                <li class="recent-posts__block_no_3">
-                    <img class="recent-posts-image" src="images/recent-posts_3.png" alt="white car">
-                    <div class="recent-posts__text">
-                        <h3 class="article_content_header recent-posts__header">
-                            <a class="header-link" href="#">One of Saturn's largest rings may be newer than…</a>
-                        </h3>
-                        <p class="article_content_author recent-posts_author">Rickie Baroch - June 6, 2019</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="column_content_newsletter">
-            <h2 class="footer_column_heading">Newsletter</h2>
-            <form action="#" class="newsletter_form newsletter_form_theme_dark">
-                <input type="text" placeholder="Your name" class="input-text input-text_theme_dark">
-                <input type="email" placeholder="Your email adress" class="newsletter-form newsletter-form_theme_dark">
-                <input type="submit" name="submit" value="Subscribe to newsletter" class="newsletter-button newsletter-button_theme_dark">
-            </form>
-        </div>
-
         <div class="footer__bottom-panel">
             <p class="bottom-panel__copywrite">@2019 Logwork. All Right Reserved.</p>
             <div class="menu menu_place_footer">
