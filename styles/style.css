@@ -7,9 +7,8 @@
 /* блок header */
 
 .header {
-  /* увеличила размеры элементов, иначе они совсем маленькие и теряются */
   max-width: 1920px;
-  max-height: 90px;
+  min-height: 90px;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -47,8 +46,9 @@
 }
 
 /* верхний блок постов */
-.top-section {
+.section_pos_top {
   padding-top: 30px;
+  padding-bottom: 76px;
   width: 100%;
   margin: 0 auto;
 }
@@ -61,7 +61,6 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(370px, 1fr));
   grid-template-rows: repeat(2, minmax(265px, 1fr));
-  grid-auto-rows: repeat(2, minmax(265px, 1fr));
   gap: 30px;
 }
 
@@ -131,30 +130,30 @@
 .article_content_header {
   color: white;
   margin: 0;
-  max-width: 340px;
 }
 
 .header_type_large {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.38;
+  max-width: 340px;
 }
 
 .header_type_medium {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
+  max-width: 340px;
 }
 
 /* центральная секция */
 
 .section_pos_left {
-  width: 1170px;
+  max-width: 1170px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: auto;
-  margin-top: 75px;
 }
 
 .left-blocks__column {
@@ -162,53 +161,49 @@
   display: flex;
   flex-direction: column;
   padding: 0;
+  gap: 60px;
 }
 
 .left-block {
-  width: 770px;
-  height: 573px;
+  min-width: 770px;
+  min-height: 573px;
   position: relative;
-  margin-bottom: 75px;
 }
 
 .left-block__image {
-  width: 770px;
-  height: 440px;
+  max-width: 770px;
+  object-fit: contain;
 }
 
 .left-block__text-description {
   position: absolute;
   z-index: 1;
-  bottom: 0px;
+  top: 311px;
   left: 20px;
-  width: 730px;
-  height: 249px;
+  min-width: 730px;
+  min-height: 249px;
   text-align: left;
   background-color: white;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-}
-
-.article-link {
-  text-decoration: none;
-  color: black;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
 .left-block__category {
-  position: absolute;
-  top: 30px;
-  left: 30px;
+  margin-bottom: 20px;
 }
 
 .left-block__header {
-  position: absolute;
-  top: 72px;
-  left: 30px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 25px;
-  line-height: 28px;
+  line-height: 1.12;
   color: #171717;
   margin: 0;
+  text-decoration: none;
+  max-width: 594px;
 }
 
 .left-block__author {
