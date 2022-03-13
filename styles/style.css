@@ -23,7 +23,7 @@
 }
 
 .menu {
-  width: 368px;
+  min-width: 368px;
   height: 18px;
   display: flex;
   flex-direction: row;
@@ -46,25 +46,30 @@
   padding: 0;
 }
 
-.content {
-  margin-left: 375px;
-  margin-right: 375px;
-}
-
 /* верхний блок постов */
 .top-section {
   padding-top: 30px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .top-blocks {
+  max-width: 1170px;
   padding: 0;
   margin: 0 auto;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, minmax(370px, 1fr));
   grid-template-rows: repeat(2, minmax(265px, 1fr));
+  grid-auto-rows: repeat(2, minmax(265px, 1fr));
   gap: 30px;
+}
+
+.top-block__container {
+  width: 100%;
+  height: 100%;
+  padding: 30px 0 23px 22px;
+  box-sizing: border-box;
 }
 
 .top-block {
@@ -72,30 +77,73 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 23px;
+  height: 100%;
 }
 
 .top-block_no_1 {
   background-image: url("../images/top_block_no_1.png");
-  color: white;
+  background-size: cover;
+  grid-row: 1 / span 2;
 }
 
 .top-block_no_2 {
   background-image: url("../images/top-block_no_2.png");
+  background-size: cover;
 }
 
 .top-block_no_3 {
   background-image: url("../images/top-block_no_3.png");
+  background-size: cover;
   border-radius: 5px;
 }
 
 .top-block_no_4 {
   background-image: url("../images/top_block_no_4.png");
+  background-size: cover;
 }
 
 .top-block_no_5 {
   background-image: url("../images/top_block_no_5.png");
+  background-size: cover;
+}
+
+.article_content_category {
+  color: white;
+  width: 62px;
+  min-height: 22px;
+  background-color: #4a90e2;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 0;
+}
+
+.article_content_author {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 6px 0;
+}
+
+.article_content_header {
+  color: white;
+  margin: 0;
+  max-width: 340px;
+}
+
+.header_type_large {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+}
+
+.header_type_medium {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 /* центральная секция */
