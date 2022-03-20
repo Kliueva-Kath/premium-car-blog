@@ -342,7 +342,7 @@
             </ul>
             <a class="instagram__button" href="#">
               <svg
-                class="button__image"
+                class="instagrem__button-image"
                 width="119"
                 height="17"
                 viewBox="0 0 119 17"
@@ -372,23 +372,23 @@
           <div class="sidebar-widget__tags">
             <h2 class="tags__header">Tags</h2>
             <ul class="tags__list">
-              <li class="sidebar-tag">Business</li>
-              <li class="sidebar-tag">Freelance</li>
-              <li class="sidebar-tag">Money</li>
-              <li class="sidebar-tag">Experience</li>
-              <li class="sidebar-tag">Lifestyle</li>
-              <li class="sidebar-tag">SEO</li>
-              <li class="sidebar-tag">Wordpress</li>
-              <li class="sidebar-tag">Marketing</li>
-              <li class="sidebar-tag">UX</li>
-              <li class="sidebar-tag">Modern</li>
-              <li class="sidebar-tag">Success</li>
-              <li class="sidebar-tag">Nature</li>
-              <li class="sidebar-tag">Productivity</li>
-              <li class="sidebar-tag">Sales page</li>
-              <li class="sidebar-tag">Sell</li>
-              <li class="sidebar-tag">Teamwork</li>
-              <li class="sidebar-tag">Monetize</li>
+              <li class="tags__sidebar-tag">Business</li>
+              <li class="tags__sidebar-tag">Freelance</li>
+              <li class="tags__sidebar-tag">Money</li>
+              <li class="tags__sidebar-tag">Experience</li>
+              <li class="tags__sidebar-tag">Lifestyle</li>
+              <li class="tags__sidebar-tag">SEO</li>
+              <li class="tags__sidebar-tag">Wordpress</li>
+              <li class="tags__sidebar-tag">Marketing</li>
+              <li class="tags__sidebar-tag">UX</li>
+              <li class="tags__sidebar-tag">Modern</li>
+              <li class="tags__sidebar-tag">Success</li>
+              <li class="tags__sidebar-tag">Nature</li>
+              <li class="tags__sidebar-tag">Productivity</li>
+              <li class="tags__sidebar-tag">Sales page</li>
+              <li class="tags__sidebar-tag">Sell</li>
+              <li class="tags__sidebar-tag">Teamwork</li>
+              <li class="tags__sidebar-tag">Monetize</li>
             </ul>
           </div>
           <div class="sidebar-widget__newsletter">
@@ -398,7 +398,7 @@
             </p>
             <form
               action="#"
-              class="newsletter_form newsletter_form_theme_light"
+              class="newsletter__form newsletter__form_theme_light"
             >
               <input
                 type="text"
@@ -414,7 +414,7 @@
                 type="submit"
                 name="submit"
                 value="Subscribe to newsletter"
-                class="newsletter-button newsletter-button_theme_light"
+                class="newsletter__button newsletter__button_theme_light"
               />
             </form>
           </div>
@@ -424,19 +424,25 @@
       <section class="pagination">
         <ul class="pagination__row">
           <li class="pagination__page">
-            <a class="page__link" href="#">&lt;</a>
+            <a class="pagination__link" href="#">&lt;</a>
           </li>
           <li class="pagination__page pagination__page_active">
-            <a class="page__link page__link_active" href="#">1</a>
+            <a class="pagination__link page__link_active" href="#">1</a>
           </li>
-          <li class="pagination__page"><a class="page__link" href="#">2</a></li>
-          <li class="pagination__page"><a class="page__link" href="#">3</a></li>
           <li class="pagination__page">
-            <a class="page__link" href="#">...</a>
+            <a class="pagination__link" href="#">2</a>
           </li>
-          <li class="pagination__page"><a class="page__link" href="#">8</a></li>
           <li class="pagination__page">
-            <a class="page__link" href="#">&gt;</a>
+            <a class="pagination__link" href="#">3</a>
+          </li>
+          <li class="pagination__page">
+            <a class="pagination__link" href="#">...</a>
+          </li>
+          <li class="pagination__page">
+            <a class="pagination__link" href="#">8</a>
+          </li>
+          <li class="pagination__page">
+            <a class="pagination__link" href="#">&gt;</a>
           </li>
         </ul>
       </section>
@@ -452,7 +458,7 @@
               alt="image can not be displayed"
             />
             <h2 class="article_content_header popular__header">
-              <a class="article-link" href="#"
+              <a class="article_content_link" href="#"
                 >One of Saturn's largest rings may be newer than anyone</a
               >
             </h2>
@@ -468,7 +474,7 @@
               alt="image can not be displayed"
             />
             <h2 class="article_content_header popular__header">
-              <a class="article-link" href="#"
+              <a class="article_content_link" href="#"
                 >One of Saturn's largest rings may be newer than anyone</a
               >
             </h2>
@@ -484,7 +490,7 @@
               alt="image can not be displayed"
             />
             <h2 class="article_content_header popular__header">
-              <a class="article-link" href="#"
+              <a class="article_content_link" href="#"
                 >One of Saturn's largest rings may be newer than anyone</a
               >
             </h2>
@@ -500,7 +506,7 @@
               alt="image can not be displayed"
             />
             <h2 class="article_content_header popular__header">
-              <a class="article-link" href="#"
+              <a class="article_content_link" href="#"
                 >One of Saturn's largest rings may be newer than anyone</a
               >
             </h2>
@@ -571,7 +577,7 @@
             <ul class="recent-posts__column">
               <li class="recent-posts__block">
                 <img
-                  class="recent-posts-image"
+                  class="recent-posts__image"
                   src="images/recent-posts_1.png"
                   alt="yellow car"
                 />
@@ -588,7 +594,7 @@
               </li>
               <li class="recent-posts__block">
                 <img
-                  class="recent-posts-image"
+                  class="recent-posts__image"
                   src="images/recent-posts_2.png"
                   alt="white car"
                 />
@@ -605,7 +611,7 @@
               </li>
               <li class="recent-posts__block">
                 <img
-                  class="recent-posts-image"
+                  class="recent-posts__image"
                   src="images/recent-posts_3.png"
                   alt="white car"
                 />
@@ -627,7 +633,10 @@
             <h2 class="footer_column_heading newsletter__heading">
               Newsletter
             </h2>
-            <form action="#" class="newsletter_form newsletter_form_theme_dark">
+            <form
+              action="#"
+              class="newsletter__form newsletter__form_theme_dark"
+            >
               <input
                 type="text"
                 placeholder="Your name"
@@ -642,14 +651,14 @@
                 type="submit"
                 name="submit"
                 value="Subscribe to newsletter"
-                class="newsletter-button newsletter-button_theme_dark"
+                class="newsletter__button newsletter__button_theme_dark"
               />
             </form>
           </div>
         </div>
       </div>
       <div class="footer__bottom-panel">
-        <p class="bottom-panel__copywrite">
+        <p class="bottom-panel__copyright">
           @2019 Logwork. All Right Reserved.
         </p>
         <div class="menu menu_place_footer">
