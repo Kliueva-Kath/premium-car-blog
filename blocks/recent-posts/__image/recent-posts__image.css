@@ -1,0 +1,7 @@
+.recent-posts__image {
+    max-width: 95px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}

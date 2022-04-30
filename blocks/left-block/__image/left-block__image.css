@@ -1,0 +1,4 @@
+.left-block__image {
+    max-width: 770px;
+    object-fit: contain;
+}

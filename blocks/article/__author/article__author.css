@@ -1,0 +1,10 @@
+.article__author {
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 6px 0;
+    position: relative;
+    z-index: 1;
+}

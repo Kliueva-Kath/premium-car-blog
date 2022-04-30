@@ -1,0 +1,8 @@
+.article__link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #171717;
+    text-decoration: none;
+    font-family: "PT Sans", "Arial", sans-serif;
+}

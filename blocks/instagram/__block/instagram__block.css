@@ -1,0 +1,11 @@
+.instagram__block {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.instagram__block::before {
+    content: "";
+    padding-bottom: 100%;
+    position: relative;
+}

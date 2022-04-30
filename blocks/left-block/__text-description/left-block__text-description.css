@@ -1,0 +1,16 @@
+.left-block__text-description {
+    position: absolute;
+    z-index: 1;
+    top: 311px;
+    left: 20px;
+    min-width: 730px;
+    min-height: 249px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+}

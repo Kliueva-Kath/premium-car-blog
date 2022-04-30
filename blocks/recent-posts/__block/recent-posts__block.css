@@ -1,0 +1,4 @@
+.recent-posts__block {
+    display: flex;
+    flex-direction: row;
+}

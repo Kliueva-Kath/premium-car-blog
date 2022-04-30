@@ -1,0 +1,14 @@
+.form__input {
+    font-family: "PT Sans", "Arial", sans-serif;
+    min-height: 50px;
+    width: 270px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #aeb3bb;
+}

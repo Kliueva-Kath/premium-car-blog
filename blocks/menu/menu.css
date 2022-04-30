@@ -1,0 +1,7 @@
+.menu {
+    min-width: 368px;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

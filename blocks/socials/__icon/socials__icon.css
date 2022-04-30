@@ -1,0 +1,9 @@
+.socials__icon {
+    width: 34px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.socials__icon:hover {
+    opacity: 0.8;
+}

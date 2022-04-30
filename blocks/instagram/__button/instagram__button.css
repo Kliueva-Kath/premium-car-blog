@@ -1,0 +1,10 @@
+.instagram__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    background: #232323;
+    border-radius: 3px;
+    box-sizing: border-box;
+}

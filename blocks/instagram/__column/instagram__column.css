@@ -1,0 +1,10 @@
+.instagram__column {
+    margin: 25px 0 10px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 130px));
+    grid-template-rows: repeat(3, minmax(min-content, 130px));
+    gap: 10px;
+    width: 100%;
+}

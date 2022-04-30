@@ -1,0 +1,10 @@
+.footer__column-heading {
+    font-family: "PT Sans", "Arial", sans-serif;
+    margin-top: 0;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+}

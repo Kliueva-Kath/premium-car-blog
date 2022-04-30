@@ -1,0 +1,8 @@
+.form__button {
+    font-family: "PT Sans", "Arial", sans-serif;
+    min-height: 50px;
+    width: 270px;
+    margin: auto;
+    border-radius: 3px;
+    font-family: PT Sans;
+}

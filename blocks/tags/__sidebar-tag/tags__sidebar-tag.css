@@ -1,0 +1,11 @@
+.tags__sidebar-tag {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background: #ebebeb;
+    border-radius: 3px;
+    line-height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}

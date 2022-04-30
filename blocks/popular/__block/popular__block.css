@@ -1,0 +1,9 @@
+.popular__block {
+    position: relative;
+    max-width: 270px;
+    margin-bottom: 39px;
+}
+
+.popular__block:last-of-type {
+    margin-bottom: 59px;
+}

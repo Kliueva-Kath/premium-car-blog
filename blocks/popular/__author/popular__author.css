@@ -1,0 +1,9 @@
+.popular__author {
+    font-family: "PT Sans", "Arial", sans-serif;
+    margin: 10px 0 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}

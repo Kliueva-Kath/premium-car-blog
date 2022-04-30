@@ -1,0 +1,14 @@
+.form__button_theme_dark {
+    border: none;
+    background: #232323;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.form__button_theme_dark:hover {
+    opacity: 0.9;
+}

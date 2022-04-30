@@ -1,0 +1,14 @@
+.header__search {
+    background: none;
+    border: none;
+    height: 16px;
+    width: 17px;
+    padding: 0;
+    background-image: url("../../../images/search.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header__search:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,9 @@
+.about-us__name {
+    font-family: "PT Sans", "Arial", sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    color: #171717;
+}

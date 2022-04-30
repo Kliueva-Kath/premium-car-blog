@@ -1,0 +1,5 @@
+.popular__image {
+    max-width: 270px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}

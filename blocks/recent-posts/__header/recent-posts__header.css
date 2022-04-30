@@ -1,0 +1,13 @@
+.recent-posts__header {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "PT Sans", "Arial", sans-serif;
+    max-width: 178px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.73;
+    margin: 0;
+    margin-bottom: 13px;
+    max-height: 50px;
+}

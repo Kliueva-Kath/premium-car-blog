@@ -1,0 +1,9 @@
+.recent-posts__author {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1;
+    color: #cecece;
+    margin: 0;
+}

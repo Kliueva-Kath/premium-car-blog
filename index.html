@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Premium Car Blog</title>
 </head>
 
@@ -21,13 +20,7 @@
                 <a class="menu__item" href="#">Contact</a>
                 <a class="menu__item" href="#">Purchase</a>
             </div>
-            <button type="button" class="header__search">
-          <img
-            class="header__search-icon"
-            src="images/search.png"
-            alt="search"
-          />
-        </button>
+            <button type="button" class="header__search"></button>
         </header>
 
         <main class="content">
@@ -313,25 +306,59 @@
                             </a>
                         </div>
                         <div class="sidebar-widget__tags">
-                            <h2 class="tags__header">Tags</h2>
+                            <h2 class="tags__header" href="#">Tags</h2>
                             <ul class="tags__list">
-                                <li class="tags__sidebar-tag">Business</li>
-                                <li class="tags__sidebar-tag">Freelance</li>
-                                <li class="tags__sidebar-tag">Money</li>
-                                <li class="tags__sidebar-tag">Experience</li>
-                                <li class="tags__sidebar-tag">Lifestyle</li>
-                                <li class="tags__sidebar-tag">SEO</li>
-                                <li class="tags__sidebar-tag">Wordpress</li>
-                                <li class="tags__sidebar-tag">Marketing</li>
-                                <li class="tags__sidebar-tag">UX</li>
-                                <li class="tags__sidebar-tag">Modern</li>
-                                <li class="tags__sidebar-tag">Success</li>
-                                <li class="tags__sidebar-tag">Nature</li>
-                                <li class="tags__sidebar-tag">Productivity</li>
-                                <li class="tags__sidebar-tag">Sales page</li>
-                                <li class="tags__sidebar-tag">Sell</li>
-                                <li class="tags__sidebar-tag">Teamwork</li>
-                                <li class="tags__sidebar-tag">Monetize</li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Business</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Freelance</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Money</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Experience</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Lifestyle</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">SEO</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Wordpress</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Marketing</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">UX</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Modern</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Success</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Nature</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Productivity</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Sales page</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Sell</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Teamwork</a>
+                                </li>
+                                <li class="tags__sidebar-tag">
+                                    <a class="tags__link" href="#">Monetize</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="sidebar-widget__newsletter">
@@ -342,7 +369,7 @@
                             <form action="#" name="newsletterForm" class="form form_theme_light">
                                 <input type="text" placeholder="Your name" class="form__input form__input_theme_light" />
                                 <input type="email" placeholder="Your email adress" class="form__input form__input_theme_light" />
-                                <input type="submit" name="submit" value="Subscribe to newsletter" class="newsletter__button newsletter__button_theme_light" />
+                                <input type="submit" name="submit" value="Subscribe to newsletter" class="form__button form__button_theme_light" />
                             </form>
                         </div>
             </section>
@@ -466,7 +493,7 @@
               text of the printing and typesetting industry.
             </p>
             <div class="footer_column_socials">
-              <h2 class="footer__column-heading">Keep in touch</h2>
+              <h2 class="">Keep in touch</h2>
               <div class="socials__links">
                 <a class="socials__link" href="#">
                   <img
@@ -561,7 +588,7 @@
                 type="submit"
                 name="submit"
                 value="Subscribe to newsletter"
-                class="newsletter__button newsletter__button_theme_dark"
+                class="form__button form__button_theme_dark"
               />
             </form>
           </div>

@@ -1,0 +1,10 @@
+.footer__bottom-panel {
+    min-height: 94px;
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 375px;
+    padding-right: 382px;
+}

@@ -1,0 +1,10 @@
+.top-blocks {
+    max-width: 1170px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(370px, 1fr));
+    grid-template-rows: repeat(2, minmax(265px, 1fr));
+    gap: 30px;
+}

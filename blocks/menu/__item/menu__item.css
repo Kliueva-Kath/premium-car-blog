@@ -1,0 +1,12 @@
+.menu__item {
+    font-family: "PT Sans", "Arial", sans-serif;
+    line-height: 18px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
+.menu__item:hover {
+    opacity: 0.7;
+}

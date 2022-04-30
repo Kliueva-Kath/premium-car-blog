@@ -1,0 +1,10 @@
+.popular-posts__header {
+    font-family: "PT Sans", "Arial", sans-serif;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    color: #171717;
+}

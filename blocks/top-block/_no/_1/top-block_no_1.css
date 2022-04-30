@@ -1,0 +1,7 @@
+.top-block_no_1 {
+    background-image: url("../../../../images/top-blocks/top-block_no_1.png");
+    background-size: cover;
+    grid-row: 1 / span 2;
+    height: 100%;
+    width: 100%;
+}

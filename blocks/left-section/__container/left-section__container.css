@@ -1,0 +1,7 @@
+.left-section__container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 60px;
+}

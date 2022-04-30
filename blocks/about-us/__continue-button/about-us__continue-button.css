@@ -1,0 +1,19 @@
+.about-us__continue-button {
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-decoration: none;
+    width: 100%;
+    min-height: 50px;
+    background: #232323;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 17px;
+    box-sizing: border-box;
+}

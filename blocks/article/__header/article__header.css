@@ -1,0 +1,10 @@
+.article__header {
+    color: white;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.article__header:hover {
+    opacity: 0.7;
+}

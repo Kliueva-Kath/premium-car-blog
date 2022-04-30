@@ -1,0 +1,11 @@
+.tags__list {
+    width: 285px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    gap: 10px;
+}
