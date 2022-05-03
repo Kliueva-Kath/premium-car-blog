@@ -28,10 +28,13 @@
 @import url("./blocks/article/__header/_size/_large/article__header_size_large.css");
 @import url("./blocks/article/__header/_size/_medium/article__header_size_medium.css");
 
+/* central section */
+
+@import url("./blocks/central-section/central-section.css");
+
 /* central left section */
 
 @import url("./blocks/left-section/left-section.css");
-@import url("./blocks/left-section/__container/left-section__container.css");
 @import url("./blocks/left-block/left-block.css");
 @import url("./blocks/left-block/__image/left-block__image.css");
 @import url("./blocks/left-block/__text-description/left-block__text-description.css");
@@ -85,7 +88,7 @@
 @import url("./blocks/newsletter/__header/newsletter__header.css");
 @import url("./blocks/newsletter/__heading/newsletter__heading.css");
 @import url("./blocks/newsletter/__description/newsletter__description.css");
-@import url("/blocks/form/__input/form__input.css");
+@import url("./blocks/form/__input/form__input.css");
 @import url("./blocks/form/__input/_theme/_light/form__input_theme_light.css");
 @import url("./blocks/form/__input/_theme/_dark/form__input_theme_dark.css");
 @import url("./blocks/form/__button/form__button.css");
@@ -98,6 +101,7 @@
 @import url("./blocks/pagination/__pages/pagination__pages.css");
 @import url("./blocks/pagination/__page/pagination__page.css");
 @import url("./blocks/pagination/__link/pagination__link.css");
+@import url("./blocks/pagination/__link/_active/pagination__link_active.css");
 
 /* MOST POPULAR */
 
@@ -115,12 +119,14 @@
 @import url("./blocks/column/_content/_recent-posts/column_content_recent-posts.css");
 @import url("./blocks/footer/_column/_company-description/footer_column_company-description.css");
 @import url("./blocks/footer/__column-heading/footer__column-heading.css");
+@import url("./blocks/socials/__heading/socials__heading.css");
 @import url("./blocks/socials/__link/socials__link.css");
 @import url("./blocks/socials/__icon/socials__icon.css");
 
 /* RECENT POSTS */
 
 @import url("./blocks/recent-posts/recent-posts.css");
+@import url("./blocks/recent-posts/__heading/recent-posts__heading.css");
 @import url("./blocks/recent-posts/__image/recent-posts__image.css");
 @import url("./blocks/recent-posts/__block/recent-posts__block.css");
 @import url("./blocks/recent-posts/__link/recent-posts__link.css");

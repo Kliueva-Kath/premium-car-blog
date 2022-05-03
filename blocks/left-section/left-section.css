@@ -1,7 +1,9 @@
 .left-section {
-    max-width: 1170px;
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }

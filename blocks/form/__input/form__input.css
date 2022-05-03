@@ -1,5 +1,6 @@
 .form__input {
     font-family: "PT Sans", "Arial", sans-serif;
+    display: block;
     min-height: 50px;
     width: 270px;
     margin-bottom: 10px;
@@ -10,5 +11,14 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 18px;
+    color: #000;
+}
+
+.form__input::placeholder {
     color: #aeb3bb;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
 }
