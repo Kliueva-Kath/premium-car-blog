@@ -1,0 +1,5 @@
+.header__search-function {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

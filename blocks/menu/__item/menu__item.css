@@ -10,3 +10,21 @@
 .menu__item:hover {
     opacity: 0.7;
 }
+
+@media screen and (max-width: 650px) {
+    .menu__item {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .menu__item {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu__item {
+        font-size: 12px;
+    }
+}

@@ -2,3 +2,21 @@
     width: 100px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 650px) {
+    .logo {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 80px;
+    }
+}

@@ -4,8 +4,11 @@
 /* header */
 
 @import url("./blocks/header/header.css");
+@import url("./blocks/header/__wrapping/header__wrapping.css");
 @import url("./blocks/logo/logo.css");
+@import url("./blocks/header/__search-function/header__search-function.css");
 @import url("./blocks/header/__search/header__search.css");
+@import url("./blocks/header/__search-bar/header__search-bar.css");
 
 /* menu */
 

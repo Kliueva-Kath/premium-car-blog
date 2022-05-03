@@ -1,9 +1,10 @@
 .header {
     max-width: 1920px;
+    min-width: 320px;
     min-height: 90px;
     background-color: black;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
