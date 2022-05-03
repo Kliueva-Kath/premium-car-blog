@@ -9,3 +9,7 @@
     padding-left: 16px;
     padding-right: 16px;
 }
+
+.tags__sidebar-tag:hover {
+    opacity: 0.8;
+}

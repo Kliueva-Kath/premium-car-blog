@@ -1,4 +1,5 @@
 .pagination__link_active {
     background-color: black;
     color: white;
+    position: relative;
 }
