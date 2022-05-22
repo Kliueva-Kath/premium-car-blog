@@ -12,6 +12,7 @@
     border: grey solid 1px;
     background-color: #373737;
     color: white;
+    visibility: hidden;
 }
 
 .header__search-bar::placeholder {
