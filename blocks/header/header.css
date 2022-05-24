@@ -1,6 +1,5 @@
 .header {
-    max-width: 1920px;
-    min-width: 320px;
+    width: 1920px;
     min-height: 90px;
     background-color: black;
     padding: 10px;

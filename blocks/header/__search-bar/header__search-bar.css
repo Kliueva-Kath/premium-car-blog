@@ -18,17 +18,3 @@
 .header__search-bar::placeholder {
     color: #aeb3bb;
 }
-
-@media screen and (max-width: 650px) {
-    .header__search-bar {
-        font-size: 12px;
-        height: 22px;
-        width: 140px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .header__search-bar {
-        width: 100px;
-    }
-}

@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
+/* 
 @media screen and (max-width: 1000px) {
     .menu {
         width: 320px;
@@ -37,4 +37,4 @@
     .menu {
         gap: 5px;
     }
-}
+} */
