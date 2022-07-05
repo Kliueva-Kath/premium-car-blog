@@ -19,6 +19,8 @@
 
 1. [Научиться учиться](https://kliueva-kath.github.io/how-to-learn/)
 2. [Путешествия по России](https://kliueva-kath.github.io/russian-travel/)
+3. [Mesto](https://github.com/Kliueva-Kath/mesto/)
+
 
 ---
 
@@ -43,3 +45,4 @@ Made from Figma template: [Premium Car Blog](https://www.figma.com/file/zpEryUaC
 
 1. [How to Learn](https://kliueva-kath.github.io/how-to-learn/)
 2. [Russian Travel](https://kliueva-kath.github.io/russian-travel/)
+3. [Mesto](https://github.com/Kliueva-Kath/mesto/)
