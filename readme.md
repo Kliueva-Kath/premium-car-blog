@@ -15,6 +15,10 @@
 - псевдоэлементы;
 - кнопки и формы.
 
+### Планы по доработке:
+
+- сделать сайт адаптивным
+
 ### _Другие мои проекты_:
 
 1. [Научиться учиться](https://kliueva-kath.github.io/how-to-learn/)
@@ -40,6 +44,10 @@ Made from Figma template: [Premium Car Blog](https://www.figma.com/file/zpEryUaC
 - BEM methology;
 - pseudo-elements;
 - buttons and forms.
+
+### Plans for further developement:
+
+- make website adaptive
 
 ### _My other projects_:
 
