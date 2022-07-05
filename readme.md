@@ -47,7 +47,7 @@ Made from Figma template: [Premium Car Blog](https://www.figma.com/file/zpEryUaC
 
 ### Plans for further developement:
 
-- make website adaptive
+- make website responsive
 
 ### _My other projects_:
 
